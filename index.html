@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id='maintxt' class="center">Registration Form</h1>
+    <div class="container">
+        <div id="entry">
+            <h1 class="center">Register Now</h1>
+            <label for="nametxt">Name : </label>
+            <input type="text" name="name" id="nametxt" class='width cls inputclass margbtm'>
+            
+            <label for="mailtxt">Email ID : </label>
+            <input type="email" name="email" id="mailtxt" class="width cls inputclass margbtm">
+            
+            <label for="imgtxt">Upload Photo : </label>
+            <input type="file" name="img" id="imgtxt" accept="image/*" class="inputclass margbtm">
+            
+            <label for="dobtxt">Birth Date : </label>
+            <input type="date" name="dobt" id="dobtxt" class='width cls inputclass margbtm'>
+            <div id="sex">
+                <label for="gender">Gender :</label><br>
+                <table>
+                    <tr>
+                        <td><label for="maletxt">Male</label></td>
+                        <td><input type="radio" name="gender" value="male" id="maletxt" class="radiobtn inputclass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="femaletxt">Female</label></td>
+                        <td><input type="radio" name="gender" value="female" id="femaletxt" class="radiobtn inputclass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="othertxt">Others<label></td>
+                            <td><input type="radio" name="gender" value="Other" id="othertxt" class="radiobtn inputclass"></td>
+                        </tr>
+                    </table>
+                    <div id="btndiv">
+                        <button id="sub" class="btn margup">Enroll 
+                            Now</button>
+                        <button id="clr" class="btn margup">Clear</button>
+                    </div>
+                </div>
+            </div>
+        <div id="output" class="center">
+            <h1 id="outputtxt">List of Candidates</h1>
+        </div>
+    </div>
+    <footer>designed by pratik &COPY;</footer>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
